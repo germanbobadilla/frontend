@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
+import Sidebar from './Sidebar';
 
 // import { fetchFromAPI } from '../utils/fetchFromAPI';
 // import { Videos, Sidebar } from './';
@@ -24,17 +25,17 @@ const Feed = () => {
           px: { sx: 0, md: 2 }
         }}
       >
-        {/* <Sidebar
-          selectedCategory={selectedCategory}
-          setSelectedCategory={setSelectedCategory}
-        /> */}
+        <Sidebar
+        // selectedCategory={selectedCategory}
+        // setSelectedCategory={setSelectedCategory}
+        />
 
         <Typography
           className="copyright"
           variant="body2"
           sx={{ mt: 1.5, color: '#fff' }}
         >
-          Copyright © 2022 JSM Media
+          Copyright © 2023 Access Code
         </Typography>
       </Box>
 
